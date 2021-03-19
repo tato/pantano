@@ -1,0 +1,18 @@
+<resources>
+    <string name="title_home">Log</string>
+    <string name="title_dashboard">Foods</string>
+    <string name="title_notifications">Settings</string>
+    <string name="add_food_button_description">Add a new food</string>
+    <string name="food_subtitle_separator">-</string>
+    <string name="food_dialog_name_hint">Name</string>
+    <string name="food_dialog_calories_hint">Calories</string>
+    <string name="food_dialog_save">Save</string>
+    <string name="food_dialog_delete">Delete</string>
+    <string name="breakfast_label">Breakfast</string>
+    <string name="log_current_date_hint">Current log date</string>
+    <string name="lunch_label">Lunch</string>
+    <string name="dinner_label">Dinner</string>
+    <string name="add_breakfast_hint">Add breakfast</string>
+    <string name="add_lunch_hint">Add lunch</string>
+    <string name="add_dinner_hint">Add dinner</string>
+</resources>

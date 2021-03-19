@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Bread" />
+
+    <TextView
+        android:id="@+id/food_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food_name"
+        tools:text="12.3" />
+
+    <TextView
+        android:id="@+id/food_calorie_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@+id/food_calories"
+        app:layout_constraintTop_toTopOf="@+id/food_calories"
+        tools:text="Kcal/g" />
+
+    <TextView
+        android:id="@+id/subtitle_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/food_subtitle_separator"
+        app:layout_constraintStart_toEndOf="@+id/food_calorie_unit"
+        app:layout_constraintTop_toTopOf="@+id/food_calories" />
+
+    <TextView
+        android:id="@+id/food_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/subtitle_separator"
+        app:layout_constraintTop_toTopOf="@+id/subtitle_separator"
+        tools:text="3 minutes ago" />
+</androidx.constraintlayout.widget.ConstraintLayout>
